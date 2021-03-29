@@ -1,0 +1,70 @@
+#search {
+  width: 300px;
+}
+.Alk{
+  
+  text-decoration: none;
+  color: white;
+}
+#loginMain{
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.register{
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#errMsg{
+  
+  position: fixed;
+  left: 45%;
+  margin-top: 7px;
+  z-index: 10;
+}
+
+
+.mainImage{
+  height: 500px;
+  width: auto;
+}
+
+.mainUsername{
+  width: 200px;
+  color: #000000;
+  background-color: #B08CE1;
+}
+
+
+.comments{
+  background-color: black;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  #search {
+    width: 200px;
+  }
+  #loginMain{
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .register{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #errMsg{
+  
+    position: absolute;
+    left: 14%;
+    margin-top: 7px;
+  }
+  
+}
+
+
